@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-search4teams-dev-191354-authRole",
+      "UnauthRoleArn": "arn:aws:iam::954577452262:role/amplify-search4teams-dev-191354-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::954577452262:role/amplify-search4teams-dev-191354-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-search4teams-dev-191354-deployment",
+      "UnauthRoleName": "amplify-search4teams-dev-191354-unauthRole",
+      "StackName": "amplify-search4teams-dev-191354",
+      "StackId": "arn:aws:cloudformation:us-east-1:954577452262:stack/amplify-search4teams-dev-191354/42eeb900-704c-11ed-9e1e-0e220c1c13f7",
+      "AmplifyAppId": "d287g8yds42jl6"
+    },
+    "categories": {
+      "auth": {
+        "search4teamsc52fdcdb": {}
+      },
+      "geo": {
+        "placeindexfors4t": {}
+      }
+    }
+  }
+}

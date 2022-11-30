@@ -7,6 +7,10 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@aws-amplify/ui-components": "^1.9.40",
+    "aws-amplify": "^4.3.38",
+    "maplibre-gl": "^2.4.0",
+    "maplibre-gl-js-amplify": "^3.0.0",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vuetify": "^2.6.0",

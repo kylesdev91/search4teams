@@ -1,0 +1,48 @@
+{
+  "auth": {
+    "search4teamsc52fdcdb": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  },
+  "geo": {
+    "placeindexfors4t": {
+      "isDefault": true,
+      "providerPlugin": "awscloudformation",
+      "service": "PlaceIndex",
+      "dataProvider": "HERE",
+      "dataSourceIntendedUse": "SingleUse",
+      "accessType": "AuthorizedAndGuestUsers",
+      "dependsOn": [
+        {
+          "category": "auth",
+          "resourceName": "search4teamsc52fdcdb",
+          "attributes": [
+            "UserPoolId"
+          ]
+        }
+      ]
+    }
+  }
+}
