@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dynamodb-geo": "^0.4.0",
+    "moment": "^2.29.4"
+  }
+}

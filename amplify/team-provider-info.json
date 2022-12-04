@@ -26,6 +26,18 @@
         "geosearch4t": {
           "deploymentBucketName": "amplify-search4teams-dev-191354-deployment",
           "s3Key": "amplify-builds/geosearch4t-2b367354424e4e575078-build.zip"
+        },
+        "graphqlproject": {
+          "deploymentBucketName": "amplify-search4teams-dev-191354-deployment",
+          "s3Key": "amplify-builds/graphqlproject-47466d4a62553470366c-build.zip"
+        },
+        "myfunction": {
+          "deploymentBucketName": "amplify-search4teams-dev-191354-deployment",
+          "s3Key": "amplify-builds/myfunction-6c39476b6a57556b7333-build.zip"
+        },
+        "search4teamslayer196944de": {
+          "deploymentBucketName": "amplify-search4teams-dev-191354-deployment",
+          "s3Key": "amplify-builds/search4teamslayer196944de-LambdaLayerVersioneebe4f5d-build.zip"
         }
       },
       "api": {
