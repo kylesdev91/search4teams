@@ -17,6 +17,25 @@
       },
       "geo": {
         "placeindexfors4t": {}
+      },
+      "function": {
+        "geocode": {
+          "deploymentBucketName": "amplify-search4teams-dev-191354-deployment",
+          "s3Key": "amplify-builds/geocode-4e50515059516650317a-build.zip"
+        },
+        "geosearch4t": {
+          "deploymentBucketName": "amplify-search4teams-dev-191354-deployment",
+          "s3Key": "amplify-builds/geosearch4t-2b367354424e4e575078-build.zip"
+        }
+      },
+      "api": {
+        "search4teams": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d287g8yds42jl6",
+          "type": "manual"
+        }
       }
     }
   }

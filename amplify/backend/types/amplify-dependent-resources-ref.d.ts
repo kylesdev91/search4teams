@@ -17,5 +17,25 @@ export type AmplifyDependentResourcesAttributes = {
             "Region": "string",
             "Arn": "string"
         }
+    },
+    "function": {
+        "geocode": {
+            "Name": "string",
+            "Arn": "string",
+            "Region": "string",
+            "LambdaExecutionRole": "string"
+        },
+        "geosearch4t": {
+            "Name": "string",
+            "Arn": "string",
+            "Region": "string",
+            "LambdaExecutionRole": "string"
+        }
+    },
+    "api": {
+        "search4teams": {
+            "GraphQLAPIIdOutput": "string",
+            "GraphQLAPIEndpointOutput": "string"
+        }
     }
 }

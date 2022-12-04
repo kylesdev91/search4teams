@@ -1,24 +1,29 @@
 <template>
-  <v-container>
-
-  </v-container>
+  <div>
+    <h1>Test</h1>
+  </div>
 </template>
 
 <script>
-import { createMap } from "maplibre-gl-js-amplify";
-import "maplibre-gl/dist/maplibre-gl.css";
 
-  export default {
-    name: 'HelloWorld',
-    methods:{
-      async initializeMap() {
-    const map = await createMap({
-        container: "map", // An HTML Element or HTML element ID to render the map in https://maplibre.org/maplibre-gl-js-docs/api/map/
-        center: [-123.1187, 49.2819], // [Longitude, Latitude]
-        zoom: 11,
-    })
-}
+export default {
+  name: "HelloWorld",
+  mounted: async function () {
+    await this.getGeocode();
+  },
+  methods: {
+    getGeocode() {
+        fetch("https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=308%20Roma%20Ct%20Allen%2075013&benchmark=2020&format=jsonp", {
+    //   fetch("https://reqbin.com/echo/get/json", {
+        method: "GET",
+        headers: {
+          'Accept': 'application/json', 'Access-Control-Allow-Origin': '*'
+        },
+      }
+      )
+        .then((response) => response.text())
+        .then((text) => console.log(text));
     }
-
   }
+};
 </script>
