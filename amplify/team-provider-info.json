@@ -38,7 +38,8 @@
         "search4teamslayer196944de": {
           "deploymentBucketName": "amplify-search4teams-dev-191354-deployment",
           "s3Key": "amplify-builds/search4teamslayer196944de-LambdaLayerVersioneebe4f5d-build.zip"
-        }
+        },
+        "readMessage": {}
       },
       "api": {
         "search4teams": {}
